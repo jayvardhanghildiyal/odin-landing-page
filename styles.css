@@ -38,7 +38,7 @@ body {
 
 ul {
     display: flex;
-    gap: 10px;
+    gap: 30px;
     padding: 10px;
     list-style-type: none;
     margin-right: 20px;
@@ -77,14 +77,14 @@ button {
 }
 
 .card > img {
-    width: 100px;
+    width: 150px;
     height: auto;
     border: 3px solid #4e8ee7;
     border-radius: 10px;
 }
 
 .card > p {
-    font-size: 14px
+    font-size: 17px;
 }
 
 .information > p {
@@ -99,10 +99,36 @@ button {
     text-align: center;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    width: 600px;
+    margin: 40px;
+    margin-bottom: 0px;
+}
+.quote-author {
+    display: flex;
+    font-weight: bold;
+    width: 600px;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
 .footer {
     color: white;
     display: flex;
     padding: 20px;
     justify-content: center;
+    align-items: center;
 
 }
